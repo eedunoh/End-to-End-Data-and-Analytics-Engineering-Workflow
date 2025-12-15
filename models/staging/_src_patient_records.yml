@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: patient_records
+    database: raw
+    tables:
+      - name: encounters
+      - name: organizations
+      - name: patients
+      - name: payers
+      - name: procedures
